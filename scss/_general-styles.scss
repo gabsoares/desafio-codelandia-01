@@ -1,0 +1,51 @@
+body{
+    font-family: Lexend Deca;
+    background: #eaeaea;
+}
+
+
+//Cores
+
+$azul-gradiente: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+$azul-transparente:rgba(255, 255, 255, 0.2);
+$branco: #ffffff;
+
+// Mixins
+
+@mixin element($size){
+    color: #717171;
+    @if $size == 26{
+        line-height: 32.5px;
+        font-size: $size + px;
+        color: #1A202C;
+    }
+    @else if $size == 18{
+        line-height: 32px;
+        font-size: $size + px;
+    }
+}
+
+
+//Devices
+$l: 1200px;
+$m: 500px;
+$s: 250px; 
+
+//Mixin Media Queries
+@mixin device($size){
+    @if $size == large{
+        @media screen and (min-width: $l){
+            @content;
+        } 
+    }
+    @else if $size == medium{
+        @media screen and (min-width: $m) and (max-width: #{$l - 1}){
+            @content;
+        }
+    }
+    @else if $size == small{
+        @media screen and (min-width: $s) and (max-width: #{$m - 1}){
+            @content;
+        }
+    }
+}

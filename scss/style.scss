@@ -1,0 +1,13 @@
+@import 'reset';
+
+//Estilos gerais
+@import 'general-styles';
+
+//Partes do site
+@import 'header';
+@import 'main';
+@import 'footer';
+
+
+//Import fontes
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');

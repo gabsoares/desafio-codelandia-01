@@ -1,0 +1,17 @@
+.footer{
+    background: $azul-gradiente;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        color: $branco;
+        text-align: center;
+        @include device(medium){
+            font-size: 16px;
+        }
+        @include device(small){
+            font-size: 14px;
+        }
+    }
+}
