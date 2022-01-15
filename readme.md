@@ -14,6 +14,6 @@
 
 ## <p style="padding-top: 30px; border-bottom: 1px solid #EAEAEA; border-color: #00F; width: 160px">Layout do Site</p>
 
-- <a href="https://site-sass-gabriel.netlify.app" target="_blank" style="font-size: 35px; text-decoration: underline; color: #574AE8;">Acesse agora mesmo</a>
+- <a href="https://desafio-codelandia-01-gabriel.netlify.app/" target="_blank" style="font-size: 35px; text-decoration: underline; color: #574AE8;">Acesse agora mesmo</a>
 
 ## <p style="width: 600px; height: 1200px; padding-top: 30px;">Página principal<br><br> ![Layout Site](./img/layout-site.png)</p>
