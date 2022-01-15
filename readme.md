@@ -9,6 +9,8 @@
 - CSS3
 - SASS
 
+## <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=1148%3A2" target="_blank" style="text-decoration: underline; margin-top: 20px;">Link do Figma disponibilizado pelo Iuri para inspiração de design.</a>
+
 
 ## <p style="padding-top: 30px; border-bottom: 1px solid #EAEAEA; border-color: #00F; width: 160px">Layout do Site</p>
 
