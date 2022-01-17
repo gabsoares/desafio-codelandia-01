@@ -36,7 +36,7 @@ $s: 250px;
     @if $size == large{
         @media screen and (min-width: $l){
             @content;
-        } 
+        }
     }
     @else if $size == medium{
         @media screen and (min-width: $m) and (max-width: #{$l - 1}){
